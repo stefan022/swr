@@ -7,6 +7,8 @@ import { value } from "./constants/SWRConfig/value.ts"
 import App from './App.tsx'
 import './sass/main.scss'
 
+import "vercel-toast/css"
+
 const root = document.getElementById('root') as HTMLDivElement;
 
 createRoot(root).render(
